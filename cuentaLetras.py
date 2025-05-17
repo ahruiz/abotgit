@@ -2,7 +2,6 @@
 print("-" * 80)
 print("Vamos a contar las letras de una o varias palabras dadas por el usuario")
 
-
 texto = input("Introduce un texto o una palabra: ")
 txtsinespacio = texto.replace(" ","") #eliminamos los espacios
 
