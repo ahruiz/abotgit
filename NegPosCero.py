@@ -12,6 +12,11 @@ for i in range(cantNums):
                                                      
 totResta = numeros[1] - numeros[0]
 
-print(f"los numeros capturados son: {numeros}")
-print(f"La resta de esos numeros es: {totResta}")
+if totResta < 0:
+    print(f"Los numeros capturados son {numeros} y su resta es {totResta} y es NEGATIVO")
+elif totResta > 0:  
+    print(f"Los numeros capturados son {numeros} y su resta es {totResta} y es POSITIVO")
+else:
+    print(f"Los numeros capturados son {numeros} y su resta es {totResta} y es CERO")
+
 print("-" * 80)
